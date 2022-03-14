@@ -1,3 +1,4 @@
+// Code //
 unsigned int countBits(unsigned long long n){
   int x = 0;
   while (n != 0) {
@@ -6,5 +7,5 @@ unsigned int countBits(unsigned long long n){
     }
     n = n / 2;
   }
-  return x; //your code here
+  return x; 
 }
